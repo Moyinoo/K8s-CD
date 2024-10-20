@@ -16,13 +16,6 @@ spec:
     - host: "demoapp.prod.moyinopoolas.com"
       http:
         paths:
-          - path: /api
-            pathType: Prefix
-            backend:
-              service:
-                name: api
-                port:
-                  number: 80
           - path: /
             pathType: Prefix
             backend:
